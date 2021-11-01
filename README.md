@@ -4,7 +4,7 @@
 ## GitHub: Make closed issues red again
 
 
-![Example issue](add url here once cdn acquires it)
+![Example issue](https://github.com/obfuscatedgenerated/userstyles/raw/main/readme_assets/closedissue.png)
 
 [File Link](https://github.com/obfuscatedgenerated/userstyles/blob/main/githubredissues.css)
 
