@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name         GitHub: Make closed issues red again
+@version      20211101.18.14
+@namespace    userstyles.world/user/obfuscatedgenerated
+@description  Turns the issue color of closed issues from purple back to red.
+@author       obfuscatedgenerated
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+:root {
+    --color-done-emphasis: #cb2536;
+}
+
+* {
+    --color-done-emphasis: #cb2536;
+}
+}
