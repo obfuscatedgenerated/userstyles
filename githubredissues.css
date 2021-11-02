@@ -15,4 +15,7 @@
 * {
     --color-done-emphasis: #cb2536;
 }
+.octicon-issue-closed {
+    --color-done-fg: #cb2536 !important;
+}
 }
