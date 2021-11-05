@@ -17,7 +17,7 @@
 
 ## Microsoft Teams: Dark loading screen
 
-![Preview image](https://github.com/obfuscatedgenerated/userstyles/raw/main/readme_assets/darkteamload.png)
+![Preview image](https://github.com/obfuscatedgenerated/userstyles/raw/main/readme_assets/darkteamsload.png)
 
 [File Link](https://github.com/obfuscatedgenerated/userstyles/blob/main/darkteamsload.css)
 
