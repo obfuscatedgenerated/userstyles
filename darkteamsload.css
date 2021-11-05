@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name         Microsoft Teams: Dark loading screen
+@version      20211105.15.38
+@namespace    userstyles.world/user/obfuscatedgenerated
+@description  Finally, no more offense to the eyes!
+@author       obfuscatedgenerated
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("teams.microsoft.com") {
+#app-loading-elem {
+    background: #292929;
+}
+}
