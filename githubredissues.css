@@ -8,14 +8,18 @@
 ==/UserStyle== */
 
 @-moz-document domain("github.com") {
-:root {
-    --color-done-emphasis: #cb2536;
-}
-
 * {
     --color-done-emphasis: #cb2536;
 }
-.octicon-issue-closed {
-    --color-done-fg: #cb2536 !important;
+
+[title="Label: Pro"] {
+    --color-done-emphasis: #8957e5;
+}
+
+[title="Status: Merged"] {
+    --color-done-emphasis: #8957e5;
+}
+.octicon-issue-closed:not(.State--merged) {
+    --color-done-fg: #c03837 !important;
 }
 }
