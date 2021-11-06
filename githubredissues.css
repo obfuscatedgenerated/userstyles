@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         GitHub: Make closed issues red again
-@version      20211101.18.14
+@version      20211106.21.59
 @namespace    userstyles.world/user/obfuscatedgenerated
 @description  Turns the issue color of closed issues from purple back to red.
 @author       obfuscatedgenerated
@@ -19,7 +19,12 @@
 [title="Status: Merged"] {
     --color-done-emphasis: #8957e5;
 }
+
 .octicon-issue-closed:not(.State--merged) {
     --color-done-fg: #c03837 !important;
+}
+
+[aria-label="Closed issue"] {
+    color: #c03837 !important;
 }
 }
