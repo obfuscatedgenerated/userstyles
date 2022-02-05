@@ -1,0 +1,113 @@
+@-moz-document domain("teams.microsoft.com"), domain("sharepoint.com"), domain("officeapps.live.com"), domain("onenote.com") {
+
+    .od-OneUpPdf-content,
+    .OneUp-slide,
+    .od-OneUpTextFile-content,
+    .TextViewer-frame,
+    .monaco-editor,
+    .overflow-guard,
+    .view-line,
+    #WACFrameWord,
+    #WACDocumentPanel {
+        background: #111 !important;
+        background-color: #111 !important;
+    }
+
+    .Themed,
+    .ThemedFishbowl {
+        --clrMlrRefreshCanvasBgNew: #111 !important;
+        --clrRulerBackground: #333 !important;
+    }
+
+    .od-OneUpTextFile-title {
+        background: #333 !important;
+        background-color: #333 !important;
+        color: #fff !important;
+    }
+
+    .minimap,
+    .decorationsOverviewRuler {
+        filter: invert(1);
+        /* can't override canvas bg, this is good enough */
+    }
+
+    #documentTitle svg {
+        fill: #fff !important;
+    }
+
+    #CenterRegion>*,
+    .root-257,
+    .root-249,
+    .root-105,
+    .root-97,
+    .root-282,
+    .root-290,
+    .css-154 .outerContainer-151,
+    .css-115 .outerContainer-366 * {
+        background: #333 !important;
+        background-color: #333 !important;
+        color: #fff !important;
+    }
+
+    .css-154 .outerContainer-151 div,
+    .css-154 .outerContainer-151 span,
+    .css-115 .outerContainer-366 div,
+    .css-115 .outerContainer-366 span {
+        color: #fff !important;
+    }
+
+    .css-154 .outerContainer-151 {
+        border-top: #000 1px !important;
+    }
+
+    #Ribbon *,
+    #WACRibbonPanel *,
+    #EditingRibbonPanel * {
+        background: #222 !important;
+        background-color: #222 !important;
+        color: #fff !important;
+    }
+
+    path.OfficeIconColors_m22 {
+        fill: #fff;
+    }
+
+    /* Inspired by VSCode Theme GitHub Dark */
+    .view-line,
+    .margin-view-overlays {
+        background: #0d1117 !important;
+        background-color: #0d1117 !important;
+    }
+
+    .editor-scrollable {
+        border-left: #aaa 1px !important;
+    }
+
+    .line-numbers {
+        color: #8a949d !important;
+    }
+
+    .current-line~.line-numbers {
+        color: #fff !important;
+    }
+
+    .mtk1 {
+        color: #fff !important;
+    }
+
+    .mtk6 {
+        color: #ff7e74 !important;
+    }
+
+    .mtk20 {
+        color: #9ed5fd !important;
+    }
+
+    .mtk7 {
+        color: #6dbefb !important;
+    }
+
+    .mtk8 {
+        color: #8a949d !important;
+    }
+}

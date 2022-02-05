@@ -22,3 +22,11 @@
 [File Link](https://github.com/obfuscatedgenerated/userstyles/blob/main/darkteamsload.css)
 
 [userstyles.world Link](https://userstyles.world/style/1870/microsoft-teams-dark-loading-screen)
+
+## Microsoft Teams: Dark Reader
+
+![Preview image](https://github.com/obfuscatedgenerated/userstyles/raw/main/readme_assets/darkteamsreader.png)
+
+[File Link](https://github.com/obfuscatedgenerated/userstyles/blob/main/darkteamsreader.css)
+
+[userstyles.world Link](https://userstyles.world/style/3113/microsoft-teams-dark-reader)
