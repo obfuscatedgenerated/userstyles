@@ -69,7 +69,7 @@
     }
 
     path.OfficeIconColors_m22 {
-        fill: #fff;
+        fill: #fff !important;
     }
 
     /* Inspired by VSCode Theme GitHub Dark */
